@@ -1,0 +1,42 @@
+.footer-top-container {
+    background-color: #FFFFFF;
+    height: 80px;
+}
+
+.mobile-social-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.mobile {
+    width: 435px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 120px;
+    margin-right: 15px;
+}
+
+.text {
+    text-align: center;
+    line-height: 12px;
+}
+
+.text span, .text span > b {
+    font-size: 11px;
+    line-height: 12px;
+    color: #757575;
+}
+
+.social img {
+    margin-left: 18px;
+}

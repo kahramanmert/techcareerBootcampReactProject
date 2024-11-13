@@ -1,0 +1,6 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="icon" width="26" height="26"><defs><symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="arabam-facebook">
+    <path fill="#1A1A1A" d="M13.45 28.8V17.35H9.6V12.8h3.85V9.2c0-1.9.533-3.375 1.6-4.425S17.533 3.2 19.3 3.2c1.433 0 2.6.067 3.5.2v4.05h-2.4c-.9 0-1.517.2-1.85.6-.267.333-.4.867-.4 1.6v3.15h4.25l-.6 4.55h-3.65V28.8h-4.7z">
+    </path>
+  </symbol></defs>
+                     <use xlink:href="#arabam-facebook"></use>
+                  </svg>

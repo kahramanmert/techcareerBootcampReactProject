@@ -1,0 +1,37 @@
+.services {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.call-center {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-weight: normal;
+}
+
+.call-center > span {
+    font-size: 12px;
+}
+
+.call-center > b {
+    font-size: 18px;
+    color: #1A1A1A;
+}
+
+.copyright-etbis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright-etbis > b {
+    padding-right: 15px;
+    font-size: 12px;
+    color: #1A1A1A;
+    font-weight: bold;
+}

@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* Google Fonts & arabam.com's Font */
+    font-family: "Open Sans", apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    /* My Font Settings */
+    font-size: 14px;
+    line-height: 20px;
+    color: #1a1a1a;
+}
+
+#root {
+    box-sizing: border-box;
+    background-color: #F7F7F7;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+    #root {
+        min-width: 996px;
+    }
+}

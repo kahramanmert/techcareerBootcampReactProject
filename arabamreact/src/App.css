@@ -1,0 +1,312 @@
+/* Responsive Design For All Page */
+@media only screen and (min-width: 1220px) {
+    .myContainer {
+        max-width: 1216px;
+    }
+    .navbar-x {
+        max-width: 1216px;
+    }
+    .headerbar {
+        max-width: 1216px;
+    }
+    #search-input {
+        width: 500px;
+    }
+    #adv-small-img {
+        display: none;
+    }
+    .features {
+        width: 1014px;
+    }
+    .advertisement {
+        width: 1014px;
+    }
+    .category-container {
+        margin-right: 20px;
+    }
+    .expertise {
+        width: 1216px;
+    }
+    .showcase {
+        width: 1216px;
+    }
+    .sellers-row {
+        height: 78px;
+    }
+    .sale-car-card {
+        flex: 0 0 16.66%;
+    }
+    .vehicle-container {
+        height: 270px;
+    }
+    .vehicle-image {
+        height: 120px;
+    }
+    .vehicle-info {
+        width: 160px;
+    }
+    .widget-image > img {
+        width: 394px;
+        height: auto;
+    }
+    #row-wid {
+        width: inherit;
+    }
+    #row-down {
+        width: inherit;
+    }
+    .down-wrap {
+        width: 600px;
+    }
+    .small-content-container {
+        width: 390px;
+    }
+    .footer-top {
+        max-width: 1216px;
+    }
+    .footer-middle {
+        max-width: 1216px;
+    }
+    .footer-cc {
+        max-width: 1216px;
+    }
+    .footer-end {
+        max-width: 1216px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1219px) {
+    .myContainer {
+        max-width: 992px;
+    }
+    .navbar-x {
+        max-width: 992px;
+    }
+    .headerbar {
+        max-width: 992px;
+    }
+    #search-input {
+        width: 250px;
+    }
+    #adv-big-img {
+        display: none;
+    }
+    #adv-small-img {
+        display: visible;
+        width: 796px;
+    }
+    .features {
+        width: 796px;
+    }
+    .advertisement {
+        width: 796px;
+    }
+    .hide-mobile {
+        display: none;
+    }
+    .category-container {
+        margin-right: 15px;
+    }
+    .expertise {
+        width: 996px;
+    }
+    .showcase {
+        width: 996px;
+    }
+    .sellers-row {
+        flex-wrap: wrap;
+        height: 156px;
+    }
+    .sellers-row a {
+        flex: 1 1 33.33%;
+    }
+    .sale-car-card {
+        flex: 0 0 25%;
+    }
+    .vehicle-container {
+        height: 300px;
+    }
+    .vehicle-image {
+        height: 159px;
+    }
+    .vehicle-info {
+        width: 210px;
+    }
+    .widget-image > img {
+        width: 320px;
+        height: auto;
+    }
+    #row-wid {
+        width: inherit;
+    }
+    #row-down {
+        width: inherit;
+    }
+    .down-wrap {
+        width: 488px;
+    }
+    .small-content-container {
+        width: 280px;
+    }
+    .footer-top {
+        max-width: 992px;
+    }
+    .footer-middle {
+        max-width: 992px;
+    }
+    .footer-cc {
+        max-width: 992px;
+    }
+    .footer-end {
+        max-width: 992px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+    .banner {
+        min-width: 992px;
+    }
+    .myContainer {
+        width: 992px;
+        min-width: 992px;
+    }
+    .navbar-container {
+        min-width: 992px;
+    }
+    .navbar-x {
+        min-width: 992px;
+    }
+    .headerbar-container {
+        min-width: 992px;
+    }
+    .headerbar {
+        min-width: 992px;
+    }
+    #search-input {
+        width: 250px;
+    }
+    #adv-big-img {
+        display: none;
+    }
+    #adv-small-img {
+        display: visible;
+        width: 796px;
+    }
+    .features {
+        min-width: 796px;
+    }
+    .advertisement {
+        min-width: 796px;
+    }
+    .hide-mobile {
+        display: none;
+    }
+    .category-container {
+        margin-right: 15px;
+    }
+    .expertise {
+        min-width: 996px;
+    }
+    .showcase {
+        min-width: 996px;
+    }
+    .sellers-row {
+        flex-wrap: wrap;
+        height: 156px;
+    }
+    .sellers-row a {
+        flex: 1 1 33.33%;
+    }
+    .sale-car-card {
+        flex: 0 0 25%;
+    }
+    .vehicle-container {
+        height: 300px;
+    }
+    .vehicle-image {
+        height: 159px;
+    }
+    .vehicle-info {
+        width: 210px;
+    }
+    .widget-image > img {
+        width: 320px;
+        height: auto;
+    }
+    #row-wid {
+        width: inherit;
+    }
+    #row-down {
+        width: inherit;
+    }
+    .down-wrap {
+        width: 488px;
+    }
+    .down-container {
+        width: 488px;
+    }
+    .small-content-container {
+        width: 280px;
+    }
+    .footer-top-container {
+        min-width: 992px;
+    }
+    .footer-top {
+        min-width: 992px;
+    }
+    .footer-middle {
+        min-width: 992px;
+    }
+    .footer-cc {
+        min-width: 992px;
+    }
+    .footer-end-container {
+        min-width: 992px;
+    }
+    .footer-end {
+        min-width: 992px;
+    }
+}
+
+/* @media only screen and (min-width: 1220px) {
+    .myContainer {
+        max-width: 1216px;
+    }
+    .showcase {
+        width: 1216px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1219px) {
+    .myContainer {
+        max-width: 992px;
+    }
+    .showcase {
+        width: 996px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1023px) {
+    .myContainer {
+        width: 992px;
+        min-width: 992px;
+    }
+    .showcase {
+        min-width: 996px;
+    }
+} */
+
+.myContainer {
+    /* from bootstarp container class */
+    /* --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0; */
+    width: 100%;
+    /* padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5); */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main-page-container {
+    background-color: #F7F7F7;
+}
