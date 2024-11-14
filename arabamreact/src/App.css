@@ -268,34 +268,6 @@
     }
 }
 
-/* @media only screen and (min-width: 1220px) {
-    .myContainer {
-        max-width: 1216px;
-    }
-    .showcase {
-        width: 1216px;
-    }
-}
-
-@media only screen and (min-width: 1024px) and (max-width: 1219px) {
-    .myContainer {
-        max-width: 992px;
-    }
-    .showcase {
-        width: 996px;
-    }
-}
-
-@media only screen and (min-width: 481px) and (max-width: 1023px) {
-    .myContainer {
-        width: 992px;
-        min-width: 992px;
-    }
-    .showcase {
-        min-width: 996px;
-    }
-} */
-
 .myContainer {
     /* from bootstarp container class */
     /* --bs-gutter-x: 1.5rem;
@@ -305,8 +277,4 @@
     padding-left: calc(var(--bs-gutter-x) * 0.5); */
     margin-right: auto;
     margin-left: auto;
-}
-
-.main-page-container {
-    background-color: #F7F7F7;
 }

@@ -1,23 +1,20 @@
 import './App.css';
 import Header from './component/header'
-import FirstSection from './component/firstSection';
-import Expertise from './component/expertise'
-import CarsAndSellers from './component/carsAndSellers'
-import WidgetSection from './component/widgetSection'
+import MainPage from './component/mainPage'
 import Footer from './component/footer'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import HasarSorgu from './component/hasarSorgu'
 
 function App() {
   return (
-    <>
+    <Router>
       <Header></Header>
-      <div className="main-page-container">
-        <FirstSection></FirstSection>
-        <Expertise></Expertise>
-        <CarsAndSellers></CarsAndSellers>
-        <WidgetSection></WidgetSection>
-      </div>
+      <Routes>
+        <Route path='/'element={<MainPage/>}/>
+        <Route path='/hasar-sorgu' element={<HasarSorgu />}/>
+      </Routes>
       <Footer></Footer>
-    </>
+    </Router>
   );
 }
 

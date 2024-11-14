@@ -36,7 +36,9 @@ function header() {
         {/* <!-- HeaderBar --> */}
          <div className="headerbar-container">
             <div className="headerbar">
-                <img src={require("../img/tek-tur-large.gif")} width="207px" height="36px" alt='logo'/>
+                <a href='/'><img src={require("../img/tek-tur-large.gif")} width="207px" height="36px" alt='logo'/>
+                    <a href='/hasar-sorgu'> 2 </a>
+                </a>
                 <div className="search-input-container">
                     <div className="search-input-bar">
                         <FontAwesomeIcon icon={faMagnifyingGlass} />
