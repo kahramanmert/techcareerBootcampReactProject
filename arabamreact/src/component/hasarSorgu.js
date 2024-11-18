@@ -40,14 +40,14 @@ function hasarSorgu() {
                 <p id='add-desc'>2003 yılından sonra kasko ve trafik sigortasına yansıyan hasar bilgilerini Sigorta Bilgi ve Gözetim Merkezi'nin sağladığı Sigortam360 hizmeti sayesinde sizlere ulaştırıyoruz.</p>
             </div>
         </div>
-        <div class="modal" id="damageModal" tabindex="-1" aria-labelledby="damageModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <p class="myModalTitle" id="damageModalLabel">Hangi Bilgilere Ulaşacağım?</p>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div className="modal" id="damageModal" tabindex="-1" aria-labelledby="damageModalLabel" aria-hidden="true">
+            <div className="modal-dialog modal-lg modal-dialog-centered">
+                <div className="modal-content">
+                    <div className="modal-header">
+                        <p className="myModalTitle" id="damageModalLabel">Hangi Bilgilere Ulaşacağım?</p>
+                        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">
+                    <div className="modal-body">
                         <p className='myModalInfoText bld'>Görünüm ve araç bilgileri örnek amaçlıdır.</p>
                         <div className='myModalContent'>
                             <div className='myModalBox'>
@@ -87,14 +87,14 @@ function hasarSorgu() {
                 </div>
             </div>
         </div>
-        <div class="modal" id="detailModal" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <p class="myModalTitle" id="damageModalLabel">Hangi Bilgilere Ulaşacağım?</p>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div className="modal" id="detailModal" tabindex="-1" aria-labelledby="detailModalLabel" aria-hidden="true">
+            <div className="modal-dialog modal-lg modal-dialog-centered">
+                <div className="modal-content">
+                    <div className="modal-header">
+                        <p className="myModalTitle" id="damageModalLabel">Hangi Bilgilere Ulaşacağım?</p>
+                        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">
+                    <div className="modal-body">
                         <p className='myModalInfoText bld'>Görünüm ve araç bilgileri örnek amaçlıdır.</p>
                         <div className='myModalContent'>
                             <div className='row m-0 p-0'>
